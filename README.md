@@ -1,14 +1,16 @@
-## Vấn đề và cách tiếp cận
-Việc nhập tay thủ công từ phiếu phỏng vấn vào excel là công việc tốn nhiều tài nguyên. Do đó hướng giải quyết là sẽ kết hợp Google Lens trên điện thoại và phầm mềm tự viết:
-1. Phần mềm được viết bằng python, sử dụng Tkinter để dựng GUI và một số phép toán cơ bản
-2. Phần mềm sẽ quét Clipboard, và hiển thị dữ liệu đã scan trên GUI để kiểm tra bằng mắt trước khi chấp nhận.
-3. Dựa vào dữ liệu thô đang hiển thị. Phần mềm cũng sẽ kiểm tra lại format dữ liệu, tính toán Bodyfat, tuổi, Vo2max, beep mét.
-4. Cuối cùng là xuất ra .txt để thuận tiện cho vào SQL database.
+## Tổng quan
+Đây là một phần mềm được viết bằng Python tiếp nhận dữ liệu từ Google Lens trên điện thoại và xuất ra file txt, trước khi đưa vào cơ sở dữ liệu SQL. Phần mềm được viết để giải quyết vấn đề nhập thủ công từ phiếu khảo sát vào excel.
 
-## Hướng dẫn
-1. Sử dụng phiếu khảo sát mẫu để scan, và dùng Google Lens trên điện thoại để scan. Khi scan thì chỉ scan một nửa mặt phải của giấy.
-2. Chọn gửi đến Clipboard máy tính.
-3. Khởi động phần mềm
-4. Điền số dòng của phiếu khảo sát vào phần mềm. Số dòng giúp phần mềm phân biệt được dữ liệu của môn gì (ví dụ Boxing và xe đạp sẽ có những chỉ số khác nhau).
-5. Chọn Quét.
-6. Dữ liệu sẽ hiện thị trên giao diện, kiểm tra lại trước khi chọn Chấp nhận.
+## Tính Năng
+- Quét dữ liệu từ Clipboard và hiển thị dữ liệu đã quét lên trên giao diện phần mềm.
+- Dựa vào chỉ số thô để tính ra các chỉ số: Bodayfat, tuổi, Vo2max, Beep test (mét).
+- Đảm bảo dữ liệu không bị thiếu, và đúng cấu trúc trước khi xuất ra txt.
+
+## Cách Sử Dụng
+1. Chọn phiếu khảo sát để scan (mỗi môn thể thao sẽ có phiếu khảo sát khác nhau, dự án không kèm phiếu khảo sát)
+2. Dùng Google Lens trên điện thoại để scan. Khi scan thì chỉ scan một nửa mặt phải của phiếu khảo sát.
+3. Chọn gửi đến Clipboard máy tính.
+4. Khởi động phần mềm
+5. Điền số dòng của phiếu khảo sát vào phần mềm. Số dòng giúp phần mềm phân biệt được dữ liệu của môn gì (ví dụ Boxing và xe đạp sẽ có số lượng chỉ số khác nhau).
+6. Chọn Quét.
+7. Dữ liệu sẽ hiện thị trên giao diện, kiểm tra lại trước khi chọn Chấp nhận.
