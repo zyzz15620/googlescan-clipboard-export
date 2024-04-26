@@ -8,9 +8,7 @@ Việc nhập tay thủ công từ phiếu phỏng vấn vào excel là công vi
 ## Hướng dẫn
 1. Sử dụng phiếu khảo sát mẫu để scan, khi scan thì scan một nửa mặt giấy.
 2. Chọn gửi đến Clipboard máy tính.
-3. Điền số dòng của phiếu khảo sát vào phần mềm. Như vậy để phần mềm phân biệt được dữ liệu của môn gì (ví dụ Boxing và xe đạp sẽ có những chỉ số khác)
-4. Bật phần mềm, chọn Quét.
-5. Dữ liệu sẽ hiện thị trên giao diện, kiểm tra lại trước khi chọn Chấp nhận.
-
-
-
+3. Khởi động phần mềm
+4. Điền số dòng của phiếu khảo sát vào phần mềm. Số dòng giúp phần mềm phân biệt được dữ liệu của môn gì (ví dụ Boxing và xe đạp sẽ có những chỉ số khác nhau).
+5. Chọn Quét.
+6. Dữ liệu sẽ hiện thị trên giao diện, kiểm tra lại trước khi chọn Chấp nhận.
