@@ -14,3 +14,7 @@
 5. Điền số dòng của phiếu khảo sát vào phần mềm. Số dòng giúp phần mềm phân biệt được dữ liệu của môn gì (ví dụ Boxing và xe đạp sẽ có số lượng chỉ số khác nhau).
 6. Chọn Quét.
 7. Dữ liệu sẽ hiện thị trên giao diện, kiểm tra lại trước khi chọn Chấp nhận.
+
+## Yêu Cầu
+- Python 3.x
+- Các thư viện cần thiết: Tkinter, pyperclip
